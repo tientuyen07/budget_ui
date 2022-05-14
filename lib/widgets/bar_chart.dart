@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class BarChart extends StatelessWidget {
   const BarChart({Key? key, required this.expenses}) : super(key: key);
@@ -16,7 +15,7 @@ class BarChart extends StatelessWidget {
     }
 
     return Padding(
-      padding: const EdgeInsets.all(15.0),
+      padding: const EdgeInsets.all(10.0),
       child: Column(
         children: [
           const Text(
@@ -42,7 +41,6 @@ class BarChart extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 16.0,
                     fontWeight: FontWeight.w600,
-                    letterSpacing: 1.2,
                   ),
                   overflow: TextOverflow.ellipsis,
                 ),
